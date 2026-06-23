@@ -1,0 +1,32 @@
+# --- Pastas do Visual Studio (Causam o erro de permissão) ---
+.vs/
+.vscode/
+
+# --- Arquivos de Build (Gerados automaticamente) ---
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# --- Arquivos de Usuário e Configurações Locais ---
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.ilk
+*.log
+
+# --- Outros arquivos desnecessários ---
+*.dll
+*.exe (opcional, remova se quiser versionar executáveis)   
